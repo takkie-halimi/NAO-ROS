@@ -1,4 +1,4 @@
-# Object Recognition For Nao Robot
+# Object Recognition For NAO Robot
 
 Perception enhencement using Object Recognition system based Deep Convolutional Neural Network for the NAO Robot.
 ## Installation
