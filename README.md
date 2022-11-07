@@ -68,8 +68,8 @@ Run launch commands.
 
      Set ROS with the Robot using Ubuntu terminal commands
 
-     export NAO_IP= 192.168.1.11
-     ROS_MASTER_URI= http://192.168.1.14:11311/
+     export NAO_IP= IP_ADRESS_OF_ROBOT
+     ROS_MASTER_URI= IP_ADRESS_OF_ROS_MASTER
      roslaunch nao_bringup nao_full_py.launch force_python:true
 
 Run test command
