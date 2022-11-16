@@ -80,14 +80,14 @@ Run test command
 
      roslaunch py model.py
      rosrun image_view image_view image:=/nao/image_raw
-![2.png](images/1.png)
+![2.png](images/2.png)
 
 Test on virtual objects
-![3.png](images/1.png)
-![4.png](images/2.png)
+![3.png](images/3.png)
+![4.png](images/4.png)
 Test on real objects
-![5.png](images/1.png)
-![6.png](images/1.png)
+![5.png](images/5.png)
+![6.png](images/6.png)
 
 # Note
 This is implemented on Ubuntu 16.04 LTS, ROS 1 version kinetic.
