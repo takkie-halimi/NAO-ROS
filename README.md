@@ -1,7 +1,12 @@
 # Object Recognition For NAO Robot
 
 Perception enhencement using Object Recognition system based Deep Convolutional Neural Network for the NAO Robot.
-## Installation
+
+# Pre-requisites
+- Python 2 
+- Rviz (comes pre-installed with ros-desktop-full)
+- [NAO Robot simulation package](http://wiki.ros.org/nao.git)
+# Installation
 
 Install ROS and ROS dependencies under Ubuntu
 Install TensorFlow, Keras frameworks
@@ -62,19 +67,31 @@ while not rospy.is_shutdown():
 
 ```
 ## Demo
-
 Run launch commands.
-
 
      Set ROS with the Robot using Ubuntu terminal commands
 
      export NAO_IP= IP_ADRESS_OF_ROBOT
      ROS_MASTER_URI= IP_ADRESS_OF_ROS_MASTER
      roslaunch nao_bringup nao_full_py.launch force_python:true
+![1.png](images/1.png)
 
 Run test command
 
      roslaunch py model.py
      rosrun image_view image_view image:=/nao/image_raw
+![2.png](images/1.png)
 
+Test on virtual objects
+![3.png](images/1.png)
+![4.png](images/2.png)
+Test on real objects
+![5.png](images/1.png)
+![6.png](images/1.png)
 
+# Note
+This is implemented on Ubuntu 16.04 LTS, ROS 1 version kinetic.
+
+# Reference
+1. http://wiki.ros.org/ROS/Tutorials
+2. https://github.com/ros-visualization/rviz.git
