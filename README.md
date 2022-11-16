@@ -74,20 +74,24 @@ Run launch commands.
      export NAO_IP= IP_ADRESS_OF_ROBOT
      ROS_MASTER_URI= IP_ADRESS_OF_ROS_MASTER
      roslaunch nao_bringup nao_full_py.launch force_python:true
-![1.png](images/1.png)
+
+![1.PNG](images/1.PNG)
 
 Run test command
 
      roslaunch py model.py
      rosrun image_view image_view image:=/nao/image_raw
-![2.png](images/2.png)
+![2.PNG](images/2.PNG)
 
 Test on virtual objects
-![3.png](images/3.png)
-![4.png](images/4.png)
+
+![3.PNG](images/3.PNG)
+![4.PNG](images/4.PNG)
+
 Test on real objects
-![5.png](images/5.png)
-![6.png](images/6.png)
+
+![5.PNG](images/5.PNG)
+![6.PNG](images/6.PNG)
 
 # Note
 This is implemented on Ubuntu 16.04 LTS, ROS 1 version kinetic.
