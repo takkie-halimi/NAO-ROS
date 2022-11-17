@@ -1,4 +1,4 @@
-# Visual perception enhancement of NAO robot using deep learning model based object recognition.
+# Visual Perception Enhancement of NAO Robot Using Deep Learning Model Based Object Recognition.
 
 Perception enhencement using ROS and deep convolutional neural network model  based object recognition for the NAO Robot.
 
