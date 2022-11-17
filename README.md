@@ -1,6 +1,6 @@
-# Object Recognition For NAO Robot
+# Visual perception enhancement of NAO robot using deep learning model based object recognition.
 
-Perception enhencement using Object Recognition system based Deep Convolutional Neural Network for the NAO Robot.
+Perception enhencement using ROS and deep convolutional neural network model  based object recognition for the NAO Robot.
 
 # Pre-requisites
 - Python 2 
